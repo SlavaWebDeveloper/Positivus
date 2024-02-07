@@ -1,0 +1,24 @@
+.service {
+
+  // .service__list
+
+  &__list {
+    &:not(:last-child) {
+      margin-bottom: 100px;
+
+      @include mobile {
+        margin-bottom: 70px;
+      }
+    }
+  }
+
+  // .service__item
+
+  &__item {
+  }
+
+  // .service__banner
+
+  &__banner {
+  }
+}

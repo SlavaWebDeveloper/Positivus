@@ -1,0 +1,66 @@
+.banner {
+  --bannerImageOffsetY: 24px;
+
+  padding-block: var(--bannerImageOffsetY);
+
+  @include tablet {
+    --bannerImageOffsetY: 0;
+  }
+
+  // .banner__inner
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-gray);
+    border-radius: var(--border-radius-large);
+  }
+
+  // .banner__body
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 26px;
+    padding: 60px;
+
+    @include tablet {
+      padding: 50px;
+    }
+
+    @include mobile {
+      row-gap: 20px;
+    }
+  }
+
+  // .banner__title
+
+  &__title {
+  }
+
+  // .banner__description
+
+  &__description {
+    max-width: 500px;
+  }
+
+  // .banner__button
+
+  &__button {
+  }
+
+  // .banner__image
+
+  &__image {
+    margin-block: calc(var(--bannerImageOffsetY) * -1 );
+
+    @include tablet {
+      max-width: 40%;
+      height: auto;
+    }
+  }
+}
+.button {
+}
