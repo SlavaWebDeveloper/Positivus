@@ -5,9 +5,9 @@ const del = require('del');
 const browserSync = require('browser-sync').create();
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
-const mediaquery = require('postcss-combine-media-query');
 const cssnano = require('cssnano');
 const htmlMinify = require('html-minifier');
+var mergeCss = require('gulp-merge-media-queries');
 const sass = require('gulp-sass')(require('sass'));
 
 function serve() {
@@ -31,11 +31,11 @@ function copyJs() {
 function scss() {
   const plugins = [
     autoprefixer(),
-    mediaquery(),
     cssnano()
   ];
   return gulp.src('src/styles/**/*.scss')
     .pipe(sass())
+    .pipe(mergeCss())
     .pipe(concat('style-min.css'))
     .pipe(postcss(plugins))
     .pipe(gulp.dest('dist/'))
