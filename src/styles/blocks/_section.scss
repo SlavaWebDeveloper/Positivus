@@ -34,4 +34,10 @@
   &__description {
     max-width: 580px;
   }
+
+  &__title {
+    @include mobile {
+      margin-bottom: 40px;
+    }
+  }
 }
