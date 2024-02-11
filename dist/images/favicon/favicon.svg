@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 23.61 23.61">
+  <style>
+    .icon-fill{fill:#000}@media (prefers-color-scheme:dark){.icon-fill{fill:#b9ff66}}
+  </style>
+  <defs>
+    <clipPath id="clip2_5">
+      <path id="Icon" fill-opacity="0" d="M0 0h23.61v23.61H0z" class="icon-fill"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip2_5)">
+    <path id="Vector" fill-opacity="1" fill-rule="nonzero" d="M11.8 3.63 23.36.23 19.98 11.8l3.37 11.54-11.54-3.37L.23 23.35l3.4-11.54L.23.23l11.58 3.4Z" class="icon-fill"/>
+  </g>
+</svg>
