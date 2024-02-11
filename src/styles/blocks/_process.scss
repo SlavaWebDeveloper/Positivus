@@ -9,6 +9,10 @@
     counter-reset: custom-counter;
     list-style: none;
 
+    @media (prefers-color-scheme: light) {
+      color: var(--color-light);
+    }
+
     @include mobile {
       row-gap: 20px;
     }
@@ -100,6 +104,10 @@
       background-color: var(--color-gray);
       border: var(--border);
       border-radius: 50%;
+
+      @media (prefers-color-scheme: light) {
+        background-color:  var(--color-light);       
+      }
 
       @include mobile {
         width: 30px;

@@ -133,5 +133,9 @@
 
   &__partners-image {
     filter: grayscale(1);
+
+    @media (prefers-color-scheme: light) {
+      filter: invert(0.5);  
+    }
   }
 }

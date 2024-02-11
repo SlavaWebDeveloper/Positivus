@@ -6,6 +6,12 @@
   --fieldInputPlaceholderColor: var(--color-gray-alt);
   --fieldInputHoverBgColor: var(--color-accent);
 
+  @media (prefers-color-scheme: light) {
+    --fieldInputTextColor: var(--color-light);
+    --fieldInputBgColor: var(--color-dark);
+    --fieldInputBorderColor: var(--color-light); 
+  }
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;

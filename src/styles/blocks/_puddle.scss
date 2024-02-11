@@ -3,7 +3,15 @@
   background-color: var(--color-accent);
   border-radius: var(--border-radius-small);
 
+  @media (prefers-color-scheme: light) {
+    color: var(--color-light);    
+  }
+
   &--light {
     background-color: var(--color-light);
+    
+    @media (prefers-color-scheme: light) {
+      color: var(--color-dark);    
+    }
   }
 }

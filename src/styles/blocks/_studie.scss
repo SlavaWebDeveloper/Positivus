@@ -61,7 +61,6 @@
   // .studie__description
 
   &__description {
-
   }
 
   // .studie__link
@@ -73,6 +72,11 @@
     font-size: 20px;
     line-height: 1.4;
     color: var(--color-accent);
+    margin-top: auto;
+
+    @media (prefers-color-scheme: light) {
+      color: var(--color-light);      
+    }
 
     @include hover {
       opacity: 0.7;

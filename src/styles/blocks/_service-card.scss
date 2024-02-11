@@ -57,6 +57,11 @@
   &__link {
     --serviceCardLinkIconColor: var(--color-accent);
 
+    @media (prefers-color-scheme: light) {
+      --serviceCardLinkIconColor: var(--color-gray);
+      color: var(--color-light);
+    } 
+
     display: inline-flex;
     align-items: center;
     column-gap: 15px;
@@ -66,6 +71,10 @@
     &--light {
       --serviceCardLinkIconColor: var(--color-dark);
       color: var(--color-light);
+
+      @media (prefers-color-scheme: light) {
+        --serviceCardLinkIconColor: var(--color-gray);
+      } 
     }
 
     @include hover {
