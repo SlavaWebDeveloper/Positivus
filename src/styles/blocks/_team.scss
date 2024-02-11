@@ -1,0 +1,26 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+
+  // .team__list
+
+  &__list {
+  }
+
+  // .team__item
+
+  &__item {
+  }
+
+  // .team__button
+
+  &__button {
+    align-self: flex-end;
+    min-width: 269px;
+
+    @include mobile-s {
+      width: 100%;
+    }
+  }
+}
