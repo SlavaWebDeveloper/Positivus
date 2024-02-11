@@ -2,6 +2,14 @@
 
   padding-block: var(--section-padding-y);
 
+  &--min {
+    --section-padding-y: 30px;
+  }
+
+  &--big {
+    --section-padding-y: 100px;
+  }
+
   // .section__body
 
   &__body {
@@ -33,6 +41,14 @@
 
   &__description {
     max-width: 580px;
+
+    &--min {
+      max-width: 473px;
+    }
+
+    &--min-s {
+      max-width: 323px;
+    }
   }
 
   &__title {
