@@ -1,6 +1,6 @@
 # The project "Positivus"
 
-### Layout of the [layout] (https://www.figma.com/file/E01bo1VFBKyQgqUbel7NXA/Positivus-Landing-Page-Design-(Community)?type=design&t=orhpiX1MFM9I0acC-6) "Positivus"
+### Layout of the [layout](https://www.figma.com/file/E01bo1VFBKyQgqUbel7NXA/Positivus-Landing-Page-Design-(Community)?type=design&t=orhpiX1MFM9I0acC-6) "Positivus"
 
 #### Link to the project:
 https://slavawebdeveloper.github.io/Positivus/
