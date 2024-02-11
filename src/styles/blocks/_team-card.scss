@@ -12,7 +12,9 @@
   // .team-card__header
 
   &__header {
+    position: relative;
     display: flex;
+    width: 100%;
   }
 
   // .team-card__image
@@ -26,6 +28,8 @@
   // .team-card__info
 
   &__info {
+    width: 100%;
+    max-width: 194px;
     align-self: flex-end;
 
     &:not(:last-child) {
@@ -52,12 +56,20 @@
     @include flex-center;
     @include square(34px);
 
+    position: absolute;
+    top: 0;
+    right: 0;
     flex-shrink: 0;
     align-self: flex-start;
     margin-left: auto;
     color: var(--color-accent);
     background-color: var(--color-dark);
     border-radius: 50%;
+
+    @media (prefers-color-scheme: light) {
+      color: var(--color-light);
+      background-color: var(--color-accent);
+    }
   }
 
   // .team-card__body
