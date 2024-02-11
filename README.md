@@ -32,62 +32,62 @@ npm run build
 
 ## File Tree:
 Positivus    
-├── src
-│   ├── fonts
-│   │   └── ...
-│   ├── images
-│   │   ├── favicon
-│   │   │   └── ...
-│   │   ├── icons
-│   │   │   └── ...
-│   │   ├── partners
-│   │   │   └── ...
-│   │   ├── service
-│   │   │   └── ...
-│   │   ├── team
-│   │   │   └── ...
-│   │   └── ...
-│   ├── js
-│   ├── styles
-│   │   ├── blocks
-│   │   │   └── _banner.scss
-│   │   │   └── _burger-button.scss
-│   │   │   └── _button.scss
-│   │   │   └── _contact-us.scss
-│   │   │   └── _cross-button.scss
-│   │   │   └── _field.scss
-│   │   │   └── _footer.scss
-│   │   │   └── _grid.scss
-│   │   │   └── _header.scss
-│   │   │   └── _hero.scss
-│   │   │   └── _mobile-overlay.scss
-│   │   │   └── _pagination.scss
-│   │   │   └── _process.scss
-│   │   │   └── _puddle.scss
-│   │   │   └── _radio.scss
-│   │   │   └── _radios.scss
-│   │   │   └── _review-card.scss
-│   │   │   └── _reviews.scss
-│   │   │   └── _section.scss
-│   │   │   └── _service-card.scss
-│   │   │   └── _services.scss
-│   │   │   └── _soc1als.scss
-│   │   │   └── _studie.scss
-│   │   │   └── _subscribe-form.scss
-│   │   │   └── _team-card.scss
-│   │   │   └── _team.scss
-│   │   └── _fonts.scss
-│   │   └── _globals.scss
-│   │   └── _media.scss
-│   │   └── _mixins.scss
-│   │   └── _normalize.scss
-│   │   └── _themes.scss
-│   │   └── _utils.scss
-│   │   └── _variables.scss
-│   │   └── style.scss
-│   └── index.html
-└── .gitignore
-└── gulpfile.js
-└── package-lock.json
-└── package.json
-└── README.md
+├── src  
+│   ├── fonts  
+│   │   └── ...  
+│   ├── images  
+│   │   ├── favicon  
+│   │   │   └── ...  
+│   │   ├── icons  
+│   │   │   └── ...  
+│   │   ├── partners  
+│   │   │   └── ...  
+│   │   ├── service  
+│   │   │   └── ...  
+│   │   ├── team  
+│   │   │   └── ...  
+│   │   └── ...  
+│   ├── js  
+│   ├── styles  
+│   │   ├── blocks  
+│   │   │   └── _banner.scss  
+│   │   │   └── _burger-button.scss  
+│   │   │   └── _button.scss  
+│   │   │   └── _contact-us.scss  
+│   │   │   └── _cross-button.scss  
+│   │   │   └── _field.scss  
+│   │   │   └── _footer.scss  
+│   │   │   └── _grid.scss  
+│   │   │   └── _header.scss  
+│   │   │   └── _hero.scss  
+│   │   │   └── _mobile-overlay.scss  
+│   │   │   └── _pagination.scss  
+│   │   │   └── _process.scss  
+│   │   │   └── _puddle.scss  
+│   │   │   └── _radio.scss  
+│   │   │   └── _radios.scss  
+│   │   │   └── _review-card.scss  
+│   │   │   └── _reviews.scss  
+│   │   │   └── _section.scss  
+│   │   │   └── _service-card.scss  
+│   │   │   └── _services.scss  
+│   │   │   └── _soc1als.scss  
+│   │   │   └── _studie.scss  
+│   │   │   └── _subscribe-form.scss  
+│   │   │   └── _team-card.scss  
+│   │   │   └── _team.scss  
+│   │   └── _fonts.scss  
+│   │   └── _globals.scss  
+│   │   └── _media.scss  
+│   │   └── _mixins.scss  
+│   │   └── _normalize.scss  
+│   │   └── _themes.scss  
+│   │   └── _utils.scss  
+│   │   └── _variables.scss  
+│   │   └── style.scss  
+│   └── index.html  
+└── .gitignore  
+└── gulpfile.js  
+└── package-lock.json  
+└── package.json  
+└── README.md  
