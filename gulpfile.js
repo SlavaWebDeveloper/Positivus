@@ -13,14 +13,14 @@ const sass = require('gulp-sass')(require('sass'));
 function serve() {
   browserSync.init({
     server: {
-      baseDir: './dist'
+      baseDir: './docs'
     }
   });
 }
 
 function copyFonts() {
   return gulp.src('src/fonts/**/*')
-    .pipe(gulp.dest('./dist/fonts/'));
+    .pipe(gulp.dest('./docs/fonts/'));
 }
 
 function copyJs() {
@@ -38,7 +38,7 @@ function scss() {
     .pipe(mergeCss())
     .pipe(concat('style-min.css'))
     .pipe(postcss(plugins))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('docs/'))
     .pipe(browserSync.reload({stream: true}));
 }
 
@@ -60,18 +60,18 @@ function html() {
       const buferFile = Buffer.from(htmlMinify.minify(file.contents.toString(), options))
       return file.contents = buferFile
     })
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('docs/'))
     .pipe(browserSync.reload({stream: true}));
 }
 
 function images() {
   return gulp.src('src/**/*.{jpg,png,svg,gif,ico,webp,avif}')
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('docs/'))
     .pipe(browserSync.reload({stream: true}));
 }
 
 function clean() {
-  return del('dist');
+  return del('docs');
 }
 
 function watchFiles() {
