@@ -17,9 +17,10 @@
     left: 7px;
     width: 70%;
     height: 2px;
-    background-color: var(--color-dark);
+    background-color: var(--color-light);
     border-radius: 5px;
   }
+
 
   &::before{
     rotate: 45deg;
