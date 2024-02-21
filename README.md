@@ -14,6 +14,7 @@ The color palette changes automatically depending on the user's preferences.
 git clone  
 https://github.com/SlavaWebDeveloper/Positivus.git
 
+npm install  
 `npm install` 
 
 For local development, use:  
