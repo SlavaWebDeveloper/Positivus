@@ -1,8 +1,8 @@
 # The project "Positivus"
 
-### Layout of the [layout](https://www.figma.com/file/E01bo1VFBKyQgqUbel7NXA/Positivus-Landing-Page-Design-(Community)?type=design&t=orhpiX1MFM9I0acC-6) "Positivus"
+## Layout of the [layout](https://www.figma.com/file/E01bo1VFBKyQgqUbel7NXA/Positivus-Landing-Page-Design-(Community)?type=design&t=orhpiX1MFM9I0acC-6) "Positivus"
 
-#### Link to the project:
+### Link to the project:
 https://slavawebdeveloper.github.io/Positivus/
 
 ## About the project
@@ -11,15 +11,16 @@ The color palette changes automatically depending on the user's preferences.
 
 ## Installation
 
-git clone https://github.com/SlavaWebDeveloper/Positivus.git
+git clone  
+https://github.com/SlavaWebDeveloper/Positivus.git
 
-npm install 
+`npm install` 
 
-### For local development, use:
-npm run dev 
+For local development, use:  
+`npm run dev`
 
-### To build a project, use:
-npm run build
+To build a project, use:  
+`npm run build`
 
 ## Stack
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
