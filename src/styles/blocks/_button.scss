@@ -8,14 +8,15 @@
   background-color: var(--color-dark);
   border: var(--border);
   border-radius: var(--border-radius);
+  transition-duration: 0.5s;
 
   @include hover {
     color: var(--color-dark);
-    background-color: var(--color-accent);
+    background-color: var(--color-dark);
 
     @media (prefers-color-scheme) {
       color: var(--color-accent);
-      background-color: var(--color-light);     
+      background-color: var(--color-dark);     
     }
   }
   

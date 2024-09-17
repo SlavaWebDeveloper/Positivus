@@ -58,6 +58,7 @@
   // .hero__button
 
   &__button {
+    cursor: pointer;
     @include mobile {
       width: 100%;
       max-width: 390px;
