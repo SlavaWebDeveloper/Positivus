@@ -92,7 +92,7 @@
 
   &__partners-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     column-gap: 37px;
 
     @include tablet {
