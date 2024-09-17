@@ -50,6 +50,9 @@
   // .banner__button
 
   &__button {
+    @include tablet {
+      font-size: 16px;
+    }
   }
 
   // .banner__image

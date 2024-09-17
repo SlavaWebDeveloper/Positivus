@@ -98,20 +98,14 @@
 
     @include tablet {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       row-gap: 20px;
     }
 
     @include mobile-s {
-      --heroPartnesWidth0ffsetX: 60px;
-
-      column-gap: 0;
-      width: calc(100vw + var(--heroPartnesWidth0ffsetX) * 2);
-      margin-left: calc(
-        (var(--heroPartnesWidth0ffsetX) + var(--container-padding-x))
-        * -1
-      );
-    }
+      row-gap: 20px;
+      column-gap: 20px;
+      }
   }
 
   // .hero__partners-item
