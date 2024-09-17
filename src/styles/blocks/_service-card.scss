@@ -32,7 +32,7 @@
   &__body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     row-gap: 30px;
 
     @include mobile {

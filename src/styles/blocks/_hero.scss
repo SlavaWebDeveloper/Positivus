@@ -68,6 +68,7 @@
   // .hero__image
 
   &__image {
+    align-self: center;
     @include tablet {
       max-width: 40%;
       height: auto;
