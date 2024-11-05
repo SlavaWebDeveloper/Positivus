@@ -1,0 +1,32 @@
+.about {
+  // .about__list
+
+  &__list {
+    @include tablet {
+      --gridColumns: 2;
+    }
+
+    @include mobile {
+      --gridColumns: 1;
+    }
+  }
+
+  // .about__item
+
+  &__item {
+  }
+
+  // .about-card
+
+  &-card {
+    --gridColumns: 1;
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+
+
+    justify-content: center;
+  }
+}
