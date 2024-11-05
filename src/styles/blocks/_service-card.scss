@@ -8,6 +8,7 @@
   border: var(--border);
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow);
+  height: 100%;
 
   @include mobile {
     display: grid;

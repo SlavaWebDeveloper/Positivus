@@ -26,6 +26,13 @@
     background-color: transparent;
   }
 
+   // .button-light
+   &-light {
+    color: var(--color-dark);
+    background-color: var(--color-light);
+  }
+
+  // .button--accent
   &--accent {
     color: var(--color-dark);
     background-color: var(--color-accent);

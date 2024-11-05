@@ -2,6 +2,8 @@
   // .about__list
 
   &__list {
+    gap: 20px;
+    
     @include tablet {
       --gridColumns: 2;
     }
@@ -20,13 +22,16 @@
 
   &-card {
     --gridColumns: 1;
+    justify-content: center;
+    gap: 10px;
 
+    .button {
+      text-wrap: nowrap;
+    }
+    
     @include mobile {
       grid-template-columns: 1fr;
       justify-items: center;
     }
-
-
-    justify-content: center;
   }
 }
